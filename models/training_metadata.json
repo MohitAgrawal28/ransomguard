@@ -1,0 +1,28 @@
+{
+  "features": [
+    "file_write_count",
+    "file_rename_count",
+    "entropy_before",
+    "entropy_after",
+    "entropy_change",
+    "process_execution_time",
+    "api_call_frequency",
+    "file_access_rate",
+    "extension_change_count",
+    "encryption_indicator",
+    "rename_to_write_ratio",
+    "entropy_spike",
+    "aggression_score",
+    "ext_change_rate"
+  ],
+  "n_features": 14,
+  "final_val_loss": 0.0414,
+  "final_val_accuracy": 0.9752,
+  "epochs_trained": 37,
+  "evaluation": {
+    "accuracy": 0.9672,
+    "f1": 0.9681,
+    "roc_auc": 0.9985,
+    "threshold": 0.5
+  }
+}

@@ -1,0 +1,11 @@
+venv/
+venv
+frontend/node_modules/
+node_modules/
+__pycache__/
+*.pyc
+logs/
+.env
+frontend/dist/
+*.dll
+*.so
